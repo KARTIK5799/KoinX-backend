@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE or editor folders (e.g. VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Coverage directory for testing
+coverage/
+
+# Build directories
+build/
+dist/
+
+# Package lock files if you don't want to track them
+package-lock.json
+yarn.lock
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Other files that should not be tracked
+*.swp
+*.swo
+
+# Npm local modules
+.local/
