@@ -45,7 +45,7 @@ async function fetchCryptoData() {
           await existingCrypto.save();
           // console.log(`${coin} data updated with new price history`);
         } else {
-          // console.log(`${coin} data not updated, last update was less than 2 hours ago`);
+          console.log(`${coin} data not updated, last update was less than 2 hours ago`);
         }
       }
     }
