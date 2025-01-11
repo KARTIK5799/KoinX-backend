@@ -3,6 +3,6 @@ import { Router } from 'express';
 
 const router = Router();
 
-router.use('/api', CryptoRoutes);
+router.use('/', CryptoRoutes);
 
 export default router;

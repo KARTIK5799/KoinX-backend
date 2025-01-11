@@ -1,6 +1,5 @@
-
-import GiveMsg from "./lib/cryptoControllers.js";
+import { GetStats } from './lib/StatsController.js'
 
 export const controller = {
-  GiveMsg,
+  GetStats
 };
